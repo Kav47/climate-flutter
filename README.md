@@ -2,7 +2,9 @@
 
 ## Our Goal
 
-The objective of this tutorial is to learn about asynchronous programming in Dart. We'll look at how to carry out time consuming tasks such as getting device location and networking to get data from the internet. 
+The objective of this tutorial is to learn about asynchronous programming in Dart. We'll look at how to carry out time consuming tasks such as getting device location and networking to get data from the internet.
+
+Inorder to run the project use your own API Key, Replace `weather.dart` Line 7 `const apiKey = 'YOUR_API_KEY';` with your own key.
 
 
 ## What you will create
@@ -63,3 +65,10 @@ We’re going to make a weather app inspired by the beautiful designs made by [O
 
 - `value ?? alternativeValue` means if `value` is null, then take the value of `alternativeValue`
 - Can only await on method that returns future
+
+#### HTTP Return codes
+- 1XX: Hold on
+- 2XX: Here you go
+- 3XX: Go away
+- 4XX: You f'ed up!
+- 5XX: I f'd up!
